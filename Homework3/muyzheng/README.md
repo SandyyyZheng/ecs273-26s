@@ -33,8 +33,6 @@ data/
     └── …  (19 stocks; MMM has no news data)
 ```
 
-**tsne.csv** was generated following the HW2-T2 pipeline: train an LSTM autoencoder (hidden_dim=64, latent_dim=16, 100 epochs) on min-max normalized 5-feature (OHLCV) sequences → extract 16-dim latent representations → run TSNE(n_components=2, perplexity=5, random_state=42).
-
 **Stock CSV format:** `Date, Open, High, Low, Close, Volume`
 
 **News JSON format:** `[{ "title", "date", "content", "preview" }]` (sorted newest first)
@@ -63,7 +61,7 @@ Select any of the 20 stocks. All three views update instantly.
 - Properly labeled axes: *Date* (X), *Price (USD)* (Y).
 
 ### View 2 — t-SNE Scatter Plot (bottom-left)
-- One point per stock, **colored by sector** using the same palette as HW1.
+- One point per stock, **colored by sector**.
 - **Selected stock** is shown larger with its ticker label.
 - **Click any point** to select that stock (links all views).
 - **Zoom** (mouse wheel) rescales both axes.
