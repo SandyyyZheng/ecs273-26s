@@ -3,7 +3,7 @@ import pandas as pd
 from motor.motor_asyncio import AsyncIOMotorClient
 import asyncio
 
-client = AsyncIOMotorClient("mongodb://localhost:27017")
+client = AsyncIOMotorClient("mongodb://localhost:27018")
 db = client.stock_muyzheng
 
 TICKERS = [

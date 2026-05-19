@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from data_scheme import StockListModel, StockModelV2, StockNewsModel, tsneDataModel
 
-client = AsyncIOMotorClient("mongodb://localhost:27017")
+client = AsyncIOMotorClient("mongodb://localhost:27018")
 db = client.stock_muyzheng
 
 app = FastAPI(

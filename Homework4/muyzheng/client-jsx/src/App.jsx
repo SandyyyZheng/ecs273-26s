@@ -3,7 +3,7 @@ import { LineChart } from "./component/LineChart";
 import { TSNEScatter } from "./component/TSNEScatter";
 import { NewsList } from "./component/NewsList";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "http://localhost:8002";
 
 export default function App() {
   const [stockList, setStockList] = useState([]);

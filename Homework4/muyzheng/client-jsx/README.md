@@ -11,4 +11,4 @@ npm install
 npm run dev
 ```
 
-Make sure the Homework 4 server is running on `http://localhost:8000` so the dropdown can fetch the stock list.
+Make sure the Homework 4 server is running on `http://localhost:8002` so the dropdown can fetch the stock list.

@@ -8,7 +8,7 @@ A full-stack stock visualization application built with **FastAPI** (backend), *
 
 - Python 3.10+
 - Node.js 18+ and npm
-- MongoDB (running locally on port 27017)
+- MongoDB (running locally on port 27018)
 
 ---
 
@@ -75,11 +75,11 @@ This script creates (or resets) the `stock_muyzheng` database and populates four
 
 ```bash
 cd server
-uvicorn main:app --reload --port 8000
+uvicorn main:app --reload --port 8002
 ```
 
-The API will be available at `http://localhost:8000`.  
-Interactive docs: `http://localhost:8000/docs`
+The API will be available at `http://localhost:8002`.  
+Interactive docs: `http://localhost:8002/docs`
 
 ### API Endpoints
 

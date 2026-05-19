@@ -2,7 +2,7 @@ import * as d3 from "d3";
 import { useEffect, useRef, useState } from "react";
 import { debounce } from "lodash";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "http://localhost:8002";
 
 const margin = { left: 60, right: 160, top: 20, bottom: 50 };
 
