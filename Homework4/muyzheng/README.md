@@ -110,7 +110,7 @@ The dashboard shows:
 
 ## 7. Assumptions and Known Issues
 
-- The backend must be running on port `8000` before starting the frontend; the stock list is fetched on page load.
+- The backend must be running on port `8002` before starting the frontend; the stock list is fetched on page load.
 - `MMM` has no news articles in the dataset; its news panel shows an empty state.
 - CORS is set to allow all origins (`*`) for local development.
-- The database is named `stock_muyzheng` to avoid naming conflicts during grading.
+- The database is named `stock_muyzheng`.
